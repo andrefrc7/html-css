@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="teste.ico" type="image/x-icon">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <table border="1">
+            <tr>
+                <td>Nome:</td>
+                <td><input type="text" name="Nome" placeholder="Nome"size="46"></td>
+                <td rowspan="4" width="220" align="center" valing="middle">
+                <img src="logo.png" alt="Logo" width="160"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="Email" placeholder="Email" size="46"></td>
+            </tr>
+            <tr>
+                <td>Senha:</td>
+                <td><input type="password" name="Senha" placeholder="Senha">
+                <input type="password" name="Senha" placeholder="Confirmar Senha"></td>
+            </tr>
+            <tr>
+                <td>Semestre:</td>
+                <td>
+                    <select name="Semestre" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Habilidades:</td>
+                <td>Nivel de conhecimento:</td>
+            </tr>
+                <!--HTML-->
+            <tr>
+                <td>
+                    <label for="HTML"><input type="radio" name="nivel_html" id="">HTML</label>
+                </td>
+                <td>
+                    <label for="Baixo"><input type="radio" name="nivel_html2" id="">Baixo</label>
+                    &nbsp; &nbsp;
+                    <label for="Medio"><input type="radio" name="nivel_html2" id="">Medio</label>
+                    &nbsp; &nbsp;
+                    <label for="Alto"><input type="radio" name="nivel_html2" id="">Alto</label>
+                </td>
+            </tr>
+                <!--CSS-->
+            <tr>
+                <td>
+                    <label for="CSS"><input type="radio" name="nivel_css" id="">CSS</label>
+                </td>
+                <td>
+                    <label for="Baixo"><input type="radio" name="nivel_css2" id="">Baixo</label>
+                    &nbsp; &nbsp;
+                    <label for="Medio"><input type="radio" name="nivel_css2" id="">Medio</label>
+                    &nbsp; &nbsp;
+                    <label for="Alto"><input type="radio" name="nivel_css2" id="">Alto</label>
+                </td>
+            </tr>
+                <!--JS-->
+            <tr>
+                <td>
+                    <label for="JS"><input type="radio" name="nivel_js" id="">JS</label>
+                </td>
+                <td>
+                    <label for="Baixo"><input type="radio" name="nivel_js2" id="">Baixo</label>
+                    &nbsp; &nbsp;
+                    <label for="Medio"><input type="radio" name="nivel_js2" id="">Medio</label>
+                    &nbsp; &nbsp;
+                    <label for="Alto"><input type="radio" name="nivel_js2" id="">Alto</label>
+                </td>
+            </tr>
+                <!--JQuery-->
+            <tr>
+                <td>
+                    <label for="JQuery"><input type="radio" name="nivel_JQuery" id="">JQuery</label>
+                </td>
+                <td>
+                    <label for="Baixo"><input type="radio" name="nivel_JQuery2" id="">Baixo</label>
+                    &nbsp; &nbsp;
+                    <label for="Medio"><input type="radio" name="nivel_JQuery2" id="">Medio</label>
+                    &nbsp; &nbsp;
+                    <label for="Alto"><input type="radio" name="nivel_JQuery2" id="">Alto</label>
+                </td>
+            </tr>
+        </table>
+                <!--Botoes-->
+                <td colspan="2">
+                    <a href="index.html"><button type="button">Voltar</button></a>
+                    <input type="reset" value="Limpar"id="">
+                    <input type="submit" value="Enviar"id="">
+                </td>
+        </form>
+</body>
+</html>
