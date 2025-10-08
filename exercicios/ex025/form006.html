@@ -7,17 +7,18 @@
 </head>
 <body>
     <h1>Exemplo de Formulario</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
-            <input type="color" name="cor" id="icor" value="#00ff00">
             <label for="icor">Cor</label>
+            <input type="color" name="cor" id="icor" value="#00ff00">
         </p>
         <p>
-            <input type="range" name="nivel" id="inivel" min="1" max="5" value="2">
             <label for="inivel">Nivel de Satisfacao</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5" value="2">
         </p>
         <p>
-            
+            <label for="ifoto">Foto de perfil</label>
+            <input type="file" name="foto" id="ifoto">
         </p>
         <p>
             <input type="submit" value="Enviar">
